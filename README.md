@@ -1,4 +1,4 @@
-**This is the latest version of qb-doorlock updated to support Job Types**
+# This is the latest version of qb-doorlock updated to support Job Types
 
 # qb-doorlock
 Doorlock System For QBCore
