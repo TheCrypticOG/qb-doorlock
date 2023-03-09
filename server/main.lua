@@ -214,7 +214,7 @@ RegisterNetEvent('qb-doorlock:server:saveNewDoor', function(data, doubleDoor)
 	local configData = {}
 	local jobs, jobTypes, gangs, divisions, cids, items, doorType
 	if data.job then configData.authorizedJobs = { [data.job] = 0 } jobs = "['"..data.job.."'] = 0" end
-	if data.jobType then configData.authorizedJobTypes = { [data.jobType] = 0 } jobs = "['"..data.jobType.."'] = 0" end
+	if data.jobType then configData.authorizedJobTypes = { [data.jobType] = 0 } jobTypes = "['"..data.jobType.."'] = 0" end
 	if data.gang then configData.authorizedGangs = { [data.gang] = 0 } gangs = "['"..data.gang.."'] = 0" end
 	if data.division then configData.authorizedDivisions = { [data.division] = 0 } divisions = "['"..data.division.."'] = 0" end
 	if data.cid then configData.authorizedCitizenIDs = { [data.cid] = true } cids = "['"..data.cid.."'] = true" end
